@@ -9,7 +9,7 @@ const addDecimals = (num) => {
 const cartSlice = createSlice({
   name: "cart",
   initialState,
-  reducer: {
+  reducers: {
     addToCart: (state, action) => {
       const item = action.payload
 
